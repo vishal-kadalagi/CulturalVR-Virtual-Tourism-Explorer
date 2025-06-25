@@ -1,0 +1,165 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+nav {
+  padding: 10px;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  margin: 5px;
+  width: 50px;
+  border-radius: 15%;
+}
+nav div {
+  display: flex;
+}
+nav div p {
+  margin: 10px;
+}
+@media (max-width: 700px){
+  nav div p {
+    margin: 2px;
+  }
+  nav {
+    padding: 5px;
+  }
+}
+@media (max-width: 500px){
+  nav div p {
+    margin: 1px;
+    font-size: 15px;
+  }
+}
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+/*------------------HOME-------------------*/
+
+.home {
+  text-align: center;
+  height: 90vh;
+  background-image: url(imgs/vr-glasses-gaming.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.home h1 {
+  padding-top: 330px;
+  color: #fff;
+  font-size: 40px;
+}
+.home p {
+  color: #fff;
+  padding: 15px;
+}
+.home img {
+  width: 500px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+/*----------------LOGIN----------------------*/
+.login {
+  text-align: center;
+  padding: 100px;
+}
+.login h1 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.login input {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.login button {
+  padding: 10px;
+  border-radius: 10px;
+}
+.login button:hover {
+  background-color: blue;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/*-----------------User Dashboard-----------------*/
+
+.search {
+  padding: 15px;
+  border-radius: 15px;
+}
+.ud {
+  padding: 10px;
+}
+
+/*------------------Admin Dashboard---------------------*/
+.ad {
+  text-align: center;
+}
+.ad h2 {
+  padding: 15px;
+}
+.addplace {
+  padding: 10px;
+  border: 2px solid #000;
+  width: 200px;
+  border-radius: 20px;
+}
+.addplace h3 {
+  padding: 10px;
+}
+.addplace input, .addplace button {
+  padding: 10px;
+  border-radius: 15px;
+  margin: 5px;
+}
+.addplace input {
+  width: 160px;
+}
+.addplace button:hover {
+  background-color: blue;
+  color: #fff;
+  transition: 0.3s;
+}
+
+/*-----------------upload------------------------*/
+.upload {
+  padding: 10px;
+  border: 2px solid #000;
+  width: 200px;
+  border-radius: 20px;
+}
+.upload h3 {
+  padding: 10px;
+}
+.upload input, .upload button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+.upload button:hover {
+  background-color: blue;
+  color: #fff;
+  transition: 0.3s;
+}
+.upload select {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.addplace, .upload {
+  margin: auto;
+}
